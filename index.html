@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatert</title>
+    <link href="cal.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="display">
+        <div class="button">
+            <button onclick="clearDisplay()" class="btn">clr</button>
+            <div class="btn-wrap">
+                <button onclick="displayValue(9)" class="btn1">9</button>
+                <button onclick="displayValue(8)" class="btn1">8</button>
+                <button onclick="displayValue(7)" class="btn1">7</button>
+                <button onclick="displayValue('/')" class="btn1">/</button>
+            </div>
+            <div class="btn-wrap">
+                <button onclick="displayValue(6)" class="btn1">6</button>
+                <button onclick="displayValue(5)" class="btn1">5</button>
+                <button onclick="displayValue(4)" class="btn1">4</button>
+                <button onclick="displayValue('*')" class="btn1">*</button>
+            </div>
+            <div class="btn-wrap">
+                <button onclick="displayValue(3)" class="btn1">3</button>
+                <button onclick="displayValue(2)" class="btn1">2</button>
+                <button onclick="displayValue(1)" class="btn1">1</button>
+                <button onclick="displayValue('-')" class="btn1">-</button>
+            </div>
+            <div class="btn-wrap">
+                <button onclick="displayValue('.')" class="btn1">.</button>
+                <button onclick="displayValue('%')" class="btn1">%</button>
+                <button onclick="displayValue('+')" class="btn1">+</button>
+                <button onclick="cal('=')" class="btn1">=</button>
+            </div>
+        </div>
+    </div>
+    <h3>Developed by kanna</h3>
+
+</body>
+<script src="cal.js"></script>
+
+</html>
